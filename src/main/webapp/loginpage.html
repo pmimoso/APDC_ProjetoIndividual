@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>APDC - Projeto Individual</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="./jquery-3.3.1.min.js"></script>
+<script src="./loginpage.js"></script>
+</head>
+
+<body>
+	<h1 style="text-align: center; font-size: 40px;">
+		<font face="Verdana" color="blue">APDC - DEMO</font>
+	</h1>
+
+	<center>
+	<image src="img/login.jpg" style="width:250px;height:250px;"
+		alt="login"></image></center>
+
+	<p></p>
+
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100" align="center">
+				<form name="login-form" accept-charset="utf-8"
+					action="https://hidden-display-237214.appspot.com/rest/login/v1"
+					method="post">
+					<div>
+						<input type="text" name="username" size="20"
+							placeholder="Username" required>
+					</div>
+
+					<p></p>
+
+					<div>
+						<input type="password" name="password" placeholder="Password"
+							required>
+					</div>
+
+					<p></p>
+					<div>
+						<button name="login" type="submit" value="Login" id="submitLogin">
+							LOGIN</button>
+						<p></p><font face="Verdana" color="black">Não tem conta? Registe-se já:</font>
+						<p></p>
+					</div>
+				</form>
+				<button name="register" id="register" type="submit" value="Register" onClick="javascript:window.location.href='https://hidden-display-237214.appspot.com/registerpage.html'">
+					REGISTAR
+					</button>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

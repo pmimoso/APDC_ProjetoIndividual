@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>APDC - Projeto Individual</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="./jquery-3.3.1.min.js"></script>
+<script src="./registerpage.js"></script>
+</head>
+
+<body>
+	<h1 style="text-align: center; font-size: 40px;">
+		<font face="Verdana" color="blue">APDC - DEMO</font>
+	</h1>
+
+	<center> <image src="./img/imagemregistar.jpg"
+		style="width:700px;height:200px;" alt="login"></image></center>
+
+	<p></p>
+	<div class="limiter">
+		<div class="register">
+			<div class="register" align="center">
+				<form name="register_user-form" accept-charset="utf-8"
+					action="https://hidden-display-237214.appspot.com/rest/register/user"
+					method="post">
+					<div>
+						<font face="Verdana">Nome de utilizador:</font>
+						<p></p>
+						<input type="text" name="username" size="20" placeholder="Nome de utilizador" required>
+					</div>
+					<p></p>
+					<font face="Verdana">Palavra-passe:</font>
+					<p></p>
+					<div>
+						<input type="password" name="password" placeholder="Palavra-passe" required>
+					</div>
+					<p></p>
+						<font face="Verdana">Email:</font>
+					<p></p>
+					<div>
+						<input type="text" name="email" placeholder="Endereço de email" required>
+					</div>
+					<p></p>
+					<font face="Verdana">Tipo de perfil (público ou privado):</font>
+					<p></p>
+					<div>
+							<input type="text" name="profileType" placeholder="Tipo de perfil" required>
+					</div>
+					
+					<p></p>
+					<font face="Verdana">Telefone fixo:</font>
+					<p></p>
+					<div>
+						<input type="text" name="homePhone" placeholder="Telefone fixo" required>
+					</div>
+					
+					<p></p>
+					<font face="Verdana">Telemóvel:</font>
+					<p></p>
+					<div>
+						<input type="text" name="mobilePhone" placeholder="Telemóvel" required>
+					</div>
+					<p></p>
+					<font face="Verdana">Morada:</font>
+					<p></p>
+					<div>
+						<input type="text" name="address" placeholder="Morada">
+						<p></p>
+						<input type="text" name="altAddress" placeholder="Morada Complementar">
+						<p></p>
+						<input type="text" name="postalCode" placeholder="Código postal">
+						<p></p>
+						<input type="text" name="city" placeholder="Localidade">
+					</div>
+					<p></p>
+					<div>
+						<button name="registerUser" type="submit" value="Register" id="registerUser">
+							CRIAR CONTA</button>
+						<p></p>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>
